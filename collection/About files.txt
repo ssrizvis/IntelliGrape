@@ -1,5 +1,0 @@
-These programs are from groovy excercisein which there are two part
-
-i) general groovy programs. For this i have just used the number of the question for file names as 1.groovy for first questio.
-
-ii) Collection programs. For this i have used the number of the question for file nameas with prefix "c" as c1.groovy for first collection program.
