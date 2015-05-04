@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.2.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#change").click(function(){
+        if($('#para').text()=="hi !")
+	$('#para').text("hello");
+	else
+	$('#para').text("hi !");
+    });
+});
+</script>
+</head>
+<body>
+<input type="button" id="change" value="change">
+<p id=para> hi !</p>
+
+
+</body>
+</html>
+
