@@ -1,0 +1,21 @@
+//On click of a button ask for the name of user and display it inside the text box. 
+<html>
+<head>
+<title></title>
+<script type="text/JavaScript">
+function name()
+{
+  var nm;
+  nm=prompt("Enter your name");
+  document.forms["first"]["t1"].value=nm;
+}
+</script>
+</head>
+<body>
+<form name="first">
+<input type="button" value="ENTER YOUR NAME" onClick="name()"></br><br/>
+<input type="text" id="t1" onClick="name()">
+</form>
+</body>
+</html>
+

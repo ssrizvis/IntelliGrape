@@ -1,0 +1,40 @@
+//Allow submission of form only if the user has entered his name (not empty) and age is greater than or  equals to 18
+<html>
+<head>
+<title></title>
+<script type="text/JavaScript">
+function validate()
+{
+  var nm,age;
+  nm=document.forms["form2"]["t1"].value;
+  age=parseInt(document.forms["third"]["t2"].value);
+  if(nm=="")
+  {
+    alert("Please Enter your name");
+	document.third.t1.value="";
+    document.third.t1.focus();
+	return false;
+  }
+  if(age<18)
+  {
+    alert("Your age is less than 18!");
+	document.third.t2.value="";
+    document.third.t2.focus();
+	return false;
+  }  
+  return true;
+}
+</script>
+</head>
+<body>
+<form name=" form2" action="new.html" method="post" onSubmit="return validate()">
+<table><tr><td>NAME:</td>
+<td>input type="text" id="t1"></td>
+</tr>
+<tr><td>AGE:</td>
+<td><input type="text" id="t2"></td>
+</tr>
+<tr><td colspan="2"><input type="submit" value="GO">
+</form>
+</body>
+</html>

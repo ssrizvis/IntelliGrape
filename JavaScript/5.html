@@ -1,0 +1,20 @@
+//Copy text of one text field to another on change of text in first text box.
+<html>
+<head>
+<title></title>
+<script type="text/JavaScript">
+function name()
+{
+  var txt;
+  txt=document.forms["form1"]["t1"].value;
+  document.forms["second"]["t2"].value=txt; 
+}
+</script>
+</head>
+<body>
+<form name="form1">
+<input type="text" id="t1" onChange="name()">
+<input type="text" id="t2" >
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+// Externalize java Script file in previous exercises.
+Script.js
+function validate()
+{
+  var nm,age;
+  nm=document.forms["form2"]["t1"].value;
+  age=parseInt(document.forms["third"]["t2"].value);
+  if(nm=="")
+  {
+    alert("Please Enter your name");
+	document.third.t1.value="";
+    document.third.t1.focus();
+	return false;
+  }
+  if(age<18)
+  {
+    alert("Your age is less than 18!");
+	document.third.t2.value="";
+    document.third.t2.focus();
+	return false;
+  }  
+  return true;
+}
