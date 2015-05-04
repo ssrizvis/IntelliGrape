@@ -1,0 +1,4 @@
+Map m=[1:"aroop",2:"kumar"]
+//print m.last();// EXCEPTION THROWN
+println m.class
+println m.getClass()
