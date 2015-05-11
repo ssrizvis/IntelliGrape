@@ -6,4 +6,3 @@ file.eachLine{line->print line
    if(var%2!=0)
    nfile<<var<<" "<<line<<"\n";
 }
-
