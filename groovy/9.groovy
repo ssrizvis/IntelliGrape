@@ -5,4 +5,3 @@ file.eachLine{line->print line
    x=line.replaceAll("\\s","")
    nfile<<x;
 }
-
