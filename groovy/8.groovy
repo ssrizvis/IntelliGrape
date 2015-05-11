@@ -1,5 +1,5 @@
 def nfile=new File('new.txt')
-def file=new File('aroop.txt')
+def file=new File('shahzad.txt')
 int var=0;
 file.eachLine{line->print line
    var++
